@@ -59,72 +59,55 @@
         <section id="staff-picks" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <ul>
+          <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">Introduction to Algorithms</h3>
+                <h3 class="card__title">The Winged Watchman</h3>
                 <p class="card__text">
-                  The name of this book is self-explanatory; it's a proper
-                  introduction to algorithms! Introduction to Algorithms, or
-                  CLRS, in reference to the authors' last names, goes in-depth
-                  and covers a range of algorithms across several self-contained
-                  chapters.
+                  Joris, a young boy growing up in Holland during the Second
+                  World War, grows increasingly more aware of the dangers
+                  surrounding he and his family as they fight to shelter Jews
+                  from the Nazis who have taken over their home.
                 </p>
-                <p class="card__footer">
-                  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
-                  Clifford Stein
-                </p>
+                <p class="card__footer">Hilda Van Stockum</p>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  The Structure and Interpretation of Computer Programs (SICP)
-                </h3>
+                <h3 class="card__title">David Copperfield</h3>
                 <p class="card__text">
-                  This is one of the best books for learning the fundamentals of
-                  programming. Featured by MIT in one of their foundational
-                  programming courses, SICP is a general-purpose programming
-                  book that uses Scheme to illustrate various programming
-                  concepts.
+                  A classic bildungsroman, or coming-of-age story, David
+                  Copperfield explores the challenges David faces as he grows
+                  into manhood, the tragedy of loss and betrayal, and the
+                  sweetness of friendship and true love.
                 </p>
-                <p class="card__footer">
-                  Harold Abelson, Gerald Jay Sussman, Julie Sussman
-                </p>
+                <p class="card__footer">Charles Dickens</p>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  The Clean Coder: A Code of Conduct for Professional
-                  Programmers
-                </h3>
+                <h3 class="card__title">The Ballad of the White Horse</h3>
                 <p class="card__text">
-                  Compiled by seasoned software engineer and author Robert C.
-                  Martin (also known as Uncle Bob), this book covers the
-                  techniques and tools of true software craftsmanship. It
-                  explains how to write clean code and demonstrates how to
-                  cultivate the attitude of a skilled, professional programmer.
+                  After the Danes invade England in the 7th century, King Alfred
+                  must come to terms with his own frailty and find strength
+                  outside himself to defend his people.
                 </p>
-                <p class="card__footer">Steve McConnell</p>
+                <p class="card__footer">G. K. Chesterton</p>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  Code Complete: A Practical Handbook of Software Construction
-                </h3>
+                <h3 class="card__title">The Unforgiving Minute</h3>
                 <p class="card__text">
-                  Want to know how to write robust code irrespective of the
-                  architecture behind your chosen programming language? Then
-                  consider reading Code Complete: A Practical Handbook of
-                  Software Construction. It comprehensively covers everything
-                  related to good code structure.
+                  Craig Mullaney masterfully tells of his formation as a West
+                  Point Cadet and Rhodes Scholar, all with an eye to his future
+                  as a military leader, where each "unforgiving minute" can
+                  decide the life or death of his men.
                 </p>
-                <p class="card__footer">Steve McConnell</p>
+                <p class="card__footer">Craig Mullaney</p>
               </div>
             </li>
           </ul>
@@ -261,6 +244,7 @@
         </section>
         <section id="about-the-library" class="about">
           <h2 class="about__title">About the library</h2>
+          <div class="about__circle"></div>
           <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
@@ -280,11 +264,50 @@
               the American Geophysical Union.
             </p>
           </div>
-          <!-- <div class="about__circle"></div> -->
         </section>
       </main>
-      <footer id="contacts" class="footer">
-        <!-- The time to mark up the footer has come, you can do it 💪 -->
+      <footer id="footer" class="footer">
+        <div class="footer__columns">
+          <div class="footer__column"></div>
+          <img
+            src="images/logo_practicum.svg"
+            alt="Practicum Logo"
+            class="footer__logo"
+          />
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Hours</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9AM - 8PM</li>
+              <li class="footer__list-item">Weekends: 10AM - 6PM</li>
+            </ul>
+          </div>
+          <div class="footer__colum footer__column_content_social">
+            <h2 class="" footer__column-heading>Social Media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="images/facebook_white.svg"
+                    alt="Facebook logo"
+                  />
+                  Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="images/instagram_white.svg"
+                    alt="Instagram logo"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">©2022 Veronica Steele</p>
       </footer>
     </div>
   </body>
