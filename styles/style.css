@@ -121,11 +121,13 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: 68px auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
+  list-style: none;
+  padding: 0;
 }
 .card {
   background-color: #fff;
@@ -407,7 +409,6 @@
 
 .footer__columns {
   display: flex;
-  margin: 60px 102px 80px;
   min-height: 224px;
 }
 
@@ -458,5 +459,5 @@
 }
 
 .footer__copyright {
-  align-items: flex-end;
+  margin: 108px 0 0;
 }
